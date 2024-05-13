@@ -38,7 +38,7 @@ phases:
       - echo start build.
 
       # Spring Bootプロジェクトのビルド（jarの作成）
-      - mvn package
+      # - mvn package
       - ls -l target
 
       - echo finish build.
